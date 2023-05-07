@@ -10,10 +10,10 @@ public class KdvHesaplama {
         Scanner input=new Scanner(System.in);
 
         System.out.println("Miktar girin : ");
-        para=input.nextDouble();
+        para = input.nextDouble();
 
         kdv= para * kdvOran ;
-        kdvsiz= ( para-kdv );
+        kdvsiz= (para-kdv);
 
         System.out.println("KDV : " + kdv);
         System.out.println("KDV'siz fiyat : " + kdvsiz);
