@@ -31,8 +31,9 @@ public class HesapMakinesi {
             case 4:
                 if (b==0){
                     System.out.println("Sayı 0'a bölünemez");
-                }else
-                System.out.println(a/b);
+                }else {
+                    System.out.println(a/b);
+                }
                 break;
             default:
                 System.out.println("Yanlış seçim yaptınız !");
